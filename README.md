@@ -1,2 +1,4 @@
-# astralis-alpha
-Alpha release of Astralis
+# Astralis
+
+## A Ludwig Jam Game
+

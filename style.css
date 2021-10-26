@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "WayfarersToyBox";
+  src: url("https://cdn.glitch.me/b9cf9eea-aad8-416f-b36e-226ae1d66ac9%2FWayfarersToyBoxRegular.woff2?v=1635090807609")
+    format("woff2");
+}
+html {
+  background: rgb(20, 20, 20);
+}
+
+body {
+  background: rgb(20, 20, 20);
+  margin: 0;
+  color: white;
+  background-color: rgb(20, 20, 20);
+  font-family: "WayfarersToyBox";
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
+/*#canvasDiv {
+  width: 1440px;
+  padding: 0;
+  margin: auto;
+  display: block;
+}*/
+
+form {
+  text-align: center;
+  font-size: 20px;
+}
+
+input {
+  font-size: 20px;
+  width: 33%;
+  padding: 8px 12px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+button {
+  font-size: 20px;
+  background-color: rgb(30, 30, 30);
+  color: #d2d2d2;
+  border: 2px solid #898989;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-family: "WayfarersToyBox";
+}
+
+button:hover,
+button:active {
+  background-color: #d2d2d2;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  padding: 0px;
+}
+
+.subtitle {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  padding: 0px;
+}
+
+p {
+  position: relative;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 15px;
+}

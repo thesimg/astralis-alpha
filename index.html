@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Astralis</title>
+    <meta name="description" content="Astralis" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="libraries/p5.min.js"></script>
+  </head>
+  <body>
+    <!--<h1>
+      ASTRALIS
+    </h1>
+    <p>Made by <a href="https://thesimg.github.io">thesimg</a></p>
+    <h2>Welcome to the world of Astralis</h2>
+    <br /><br />
+    <h3>
+      <a href="/instructions.html">Instructions</a>
+    </h3>-->
+    <form target="_blank">
+      Input Seed: <input id="seed" type="text" value="" />
+      <button onclick="setSeedUrl()">Go</button>
+    </form>
+    <br /><br />
+    <div id="canvasDiv">
+      <script src="generation.js"></script>
+      <script src="functions.js"></script>
+      <script src="player.js"></script>
+      <script src="particles.js"></script>
+      <script src="sketch.js"></script>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener("keydown", function(e) {
+        if(["Space","ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].indexOf(e.code) > -1) {
+            e.preventDefault();
+        }
+        if(e.keyCode === 70){
+          <!--document.getElementById("canvasBottom").scrollIntoView(true); // {behavior: "smooth", block: "end", inline: "nearest"}
+          <!--.scrollTo(0, document.body.scrollHeight);
+          <!--window.scrollTo(0,document.querySelector(".canvasDiv").scrollHeight);
+       };
+      }, false);
+      function setSeedUrl(n) {
+        var seedInput = encodeURIComponent(
+          document.getElementById("seed").value
+        );
+        print("base url " + window.location.href.split('?')[0]);
+        var newUrl = [
+          window.location.href.split('?')[0]+"?seed=" + seedInput
+        ];
+        window.location.replace(newUrl);
+        window.location = newUrl;
+
+        return false;
+      }
+    </script>
+  </body>
+</html>

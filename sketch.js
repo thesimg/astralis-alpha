@@ -41,7 +41,7 @@ let WayfarersToyBox;
 
 function preload() {
   WayfarersToyBox = loadFont(
-    "https://cdn.glitch.me/d29dff3c-e5f7-4437-a9ed-0c8eda33a8ed%2FWayfarersToyBoxRegular.ttf?v=1635217553502"
+    "/WayfarersToyBoxRegular.ttf"
   );
 }
 
